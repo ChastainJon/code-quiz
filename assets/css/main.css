@@ -1,0 +1,56 @@
+:root{
+    --main-color: #BFA2DB;
+    --font-color: #404040;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-color);
+    color: var(--font-color);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#highScores{
+    background-color: lavender;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+#highScores:hover{
+    background-color: rgb(160, 110, 207);
+    cursor: pointer;
+}
+button{
+    font-size: x-large;
+    background-color: lavender;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+button:hover{
+    background-color: rgb(160, 110, 207);
+}
+ol{
+    padding: 0;
+}
+form{
+    margin:  5px;
+}
+form input{
+    margin: 5px;
+}
+form button{
+    margin-left: 35px;
+}
