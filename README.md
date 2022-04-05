@@ -10,7 +10,7 @@ The code quiz is a timed quiz to let you practice your knowledge of coding and c
 * [License](#license)
 
 ## Screenshots
-
+![](./screenshot.png)
 ## Installation
 To install download or clone the source code
 
