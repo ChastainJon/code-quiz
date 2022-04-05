@@ -4,52 +4,52 @@ var highScoreList = [{name: "Jim", score: 22}, {name: "Jon", score: 50}]
 
 var questionList = [
     {
-        question: "Question 1",
+        question: "What declaration MUST be included as the first item in an HTML document before the tag and is used to provide instructions to the web browser?",
         answers: [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3",
-            "Answer 4"
+            "!DOCTYPE",
+            "caption",
+            "embed",
+            "code"
         ],
         correctAnswer: 1
     },
     {
-        question: "Question 2",
+        question: "What tag is used to underline a word or line of text?",
         answers: [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3",
-            "Answer 4"
+            "li",
+            "ul",
+            "s",
+            "u"
         ],
         correctAnswer: 4
     },
     {
         question: "Question 3",
         answers: [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3",
-            "Answer 4"
+            "Variables",
+            "Recorders",
+            "Strings",
+            "Arrays"
         ],
         correctAnswer: 3
     },
     {
-        question: "Question 4",
+        question: "What is the default behavior called that is used to move declarations to the top of the current scope?",
         answers: [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3",
-            "Answer 4"
+            "Hoisting",
+            "Sorting",
+            "Jumping",
+            "Arranging"
         ],
         correctAnswer: 2
     },
     {
-        question: "Question 5",
+        question: "What property is used to set the horizontal alignment of text or words on a page?",
         answers: [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3",
-            "Answer 4"
+            "Horizontal-align",
+            "Placement",
+            "Spacing",
+            "Text-align"
         ],
         correctAnswer: 4
     },
@@ -160,6 +160,7 @@ var checkAnswer = function(answer){
 }
 
 var highScores = function(){
+    clearPage()
     //Create High Score Title
     var titleHighScore = document.createElement('h1')
     titleHighScore.innerHTML="High Scores"
